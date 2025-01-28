@@ -22,9 +22,9 @@ let player, baguettes, score = 0, scoreText;
 
 function preload() {
   // Charger les assets
-  this.load.image('background', 'https://raw.githubusercontent.com/Baguette-Inu/assets/main/paris_background.png'); // Change par ton image
-  this.load.image('shibaguette', 'https://raw.githubusercontent.com/Baguette-Inu/assets/main/shibaguette.png'); // Change par ton image
-  this.load.image('baguette', 'https://raw.githubusercontent.com/Baguette-Inu/assets/main/baguette.png'); // Change par ton image
+  this.load.image('background', 'https://raw.githubusercontent.com/Baguette-Inu/Demo-Game/refs/heads/main/spriteenv.PNG'); // Change par ton image
+  this.load.image('shibaguette', 'https://raw.githubusercontent.com/Baguette-Inu/Demo-Game/refs/heads/main/spritebgi.PNG'); // Change par ton image
+  this.load.image('baguette', 'https://raw.githubusercontent.com/Baguette-Inu/Demo-Game/refs/heads/main/spritebaguette.PNG'); // Change par ton image
 }
 
 function create() {
